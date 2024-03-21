@@ -5,8 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgxGraphModule } from '@swimlane/ngx-graph';
-import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [
@@ -17,8 +15,6 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    NgxGraphModule,
-    NgxChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
