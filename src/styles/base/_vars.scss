@@ -1,0 +1,98 @@
+// TYPOGRAPHY
+
+// Font weights
+$thin: 100;
+$extra-light: 200;
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$heavy: 900;
+
+// Font size
+$font-extra-large: 24px;
+$font-large: 20px;
+$font-base: 16px;
+$font-medium: 14px;
+$font-small: 12px;
+$font-extra-small: 10px;
+
+// Fonts
+$font-family-manrope: "Manrope", Arial, "serif";
+$font-family-manrope-regular: "Manrope-Regular", Arial, "serif";
+$font-family-manrope-medium: "Manrope-Medium", Arial, "serif";
+$font-family-manrope-semi-bold: "Manrope-SemiBold", Arial, "serif";
+$font-family-manrope-bold: "Manrope-Bold", Arial, "serif";
+
+$font-family-roboto-condensed: "RobotoCondensed", Arial, "serif";
+
+$font-family-roboto-regular: "Roboto-Regular", Arial, "serif";
+
+$font-family-inter: "Inter", Arial, "serif";
+$font-family-inter-regular: "Inter-Regular", Arial, "serif";
+$font-family-inter-medium: "Inter-Medium", Arial, "serif";
+$font-family-inter-semi-bold: "Inter-SemiBold", Arial, "serif";
+$font-family-inter-bold: "Inter-Bold", Arial, "serif";
+
+// Breakpoints
+
+$app-min-width: 320px;
+
+$block-max-width: 458px;
+$desktop-block-max-width: 1256px;
+$stepper-block-max-width: 600px;
+
+$breakpoints: (
+  "app-min-width": $app-min-width,
+  "small-phone": 376px,
+  "phone": 576px,
+  "tablet-small": 768px,
+  "tablet": 992px,
+  "laptop": 1200px,
+  "desktop": 1366px,
+  "large-desktop": 1700px,
+);
+
+// Colors
+$white: #ffffff;
+$black: rgba(0, 0, 0, 0.87);
+$dark: rgba(0, 0, 0, 0.8);
+$dark-grey: rgba(0, 0, 0, 0.6);
+$base-grey: #8c8c8c;
+$light-dark: #323232;
+$light-dark-temp: #000000;
+$grey: #54565b;
+$secondary-grey: #909296;
+$secondary-grey-temp: #595959;
+$light-grey: #d9d9d9;
+$medium-grey: #9e9e9e;
+$background-grey: #e1e8ee;
+$primary-blue: #3e6689;
+$light-red: #f9dcdd;
+$base-red: #d2544a;
+$secondary-light-red: #cf262e;
+$primary-red: #b81921;
+$base-green: #73b8b6;
+$dark-green: #548e81;
+$light-green: #a9d7cd;
+$light-green-secondary: #e4ebe4;
+$primary-orange: #df8f30;
+$secondary-light-green: #e2ebe3;
+$dark-orange: #cb6024;
+$light-orange: #fbcc92;
+$secondary-light-orange: #ffefd6;
+$dark-blue: #365375;
+$light-blue: #b5dbfe;
+$tag-bg-blue: #cee0ef;
+$tag-bg-grey: #babac0;
+$disabled-btn-grey-bg: #f4f7fb;
+$disabled-btn-light-dark: #32323233;
+$base-box-shadow: #e0e3e9;
+$scrollbar-bg: #babac0;
+$unread-notification-bg: #ecf8fe;
+$calendar-active: #8ac524;
+$calendar-active-light: #a4fd04;
+$primary-green: #1d782c;
+$stepper-light-grey: #dfe0e4;
